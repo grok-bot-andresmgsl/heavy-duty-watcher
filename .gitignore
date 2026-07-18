@@ -1,0 +1,6 @@
+state.json
+logs/
+.poll-prompt.txt
+config/watcher.env
+*.log
+.DS_Store

@@ -1,0 +1,22 @@
+{
+  "scope": "org:heavy-duty",
+  "org": "heavy-duty",
+  "bot_login": "grok-bot-andresmgsl",
+  "session_id": null,
+  "poll_interval_minutes": 15,
+  "health_interval_minutes": 60,
+  "created_at": null,
+  "last_poll_at": null,
+  "last_poll_summary": null,
+  "items": {},
+  "notes": "items keyed as 'owner/repo#pr:N' or 'owner/repo#issue:N'. Track last_seen_updated_at, last_head_sha (PRs), last_action, review_event.",
+  "scheduler": {},
+  "restore": {
+    "command": "./scripts/restore.sh",
+    "tmux_session": "heavy-duty-watcher"
+  },
+  "health": {
+    "last_check_at": null,
+    "status": null
+  }
+}
